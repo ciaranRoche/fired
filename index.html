@@ -22,7 +22,7 @@
     }
 
     /* Create a Parallax Effect */
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2, .bgimg-3 , .bgimg-4{
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -35,15 +35,21 @@
         min-height: 100%;
     }
 
-    /* Second image (Portfolio) */
+    /* Second image (Member) */
     .bgimg-2 {
         background-image: url("./images/placeholder1.jpg");
         min-height: 400px;
     }
 
-    /* Third image (Contact) */
+    /* Third image (GBNF) */
     .bgimg-3 {
         background-image: url("./images/placeholder.jpg");
+        min-height: 400px;
+    }
+
+    /* Forth image (Contact) */
+    .bgimg-4 {
+        background-image: url("./images/placeholder4.jpg");
         min-height: 400px;
     }
 
@@ -64,7 +70,7 @@
     <a href="#about" class="item">About</a>
     <a href="#members" class="item">Members</a>
     <a href="#gbnf" class="item">GBNF</a>
-    <a href="contact" class="item">Contact</a>
+    <a href="#contact" class="item">Contact</a>
 </div>
 
 <!-- First Parallax Image with Logo Text -->
@@ -91,7 +97,7 @@
     <br/><br/>
 </div>
 
-<!-- Second Parallax Image with Portfolio Text -->
+<!-- Second Parallax Image with Member Text -->
 <div class="bgimg-2 w3-display-container w3-opacity-min">
     <div class="w3-display-middle">
         <span class="w3-xxlarge w3-text-white w3-wide">Members</span>
@@ -124,7 +130,7 @@
                 <div class="ui ribbon label">
                     VICE PRESIDENT
                 </div>
-                <img src="./images/brian.png">
+                <img src="./images/anto.jpg">
             </div>
         </div>
         <div class="five wide column">
@@ -189,9 +195,93 @@
 <div class="ui container" id="gbnf">
     <br/><br/>
     <h1 class="ui centered dividing header">Gone But Not Forgotten</h1>
-
-
+    <img class="ui centered large rounded image" src="./images/brian.png">
+    <div class="ui divider"></div>
+    <p>"Sed ut perspiciatis , totam rem oluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+    <div class="ui divider"></div>
+    <img class="ui medium left rounded floated image" src="./images/gbnf1.jpg">
+    <p>"Sed ut perspiciatis , totam rem oluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+    <img class="ui medium right rounded floated image" src="./images/gbnf2.jpg">
+    <p>"Sed ut perspiciatis , totam rem oluptas sit aspernatur aut odit aut fugit, sed quia con Sed ut perspiciatisSed ut perspiciatis , totam rem oluptas sit aspernatur aut odit aut fugit, sed quia con , totam rem oluptas sit aspernatur aut odit aut fugit, sed quia con Sed ut perspiciatis , totam rem oluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+    <br/><br/>
 </div>
+
+<!-- Second Parallax Image with Contact Text -->
+<div class="bgimg-4 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-white w3-wide">Contact</span>
+    </div>
+</div>
+
+<!--Contact-->
+<div class="ui container" id="contact">
+    <br/><br/>
+    <h1 class="ui dividing centered header">Contact Us</h1>
+    <div class="ui stackable grid">
+        <div class="ui eight wide column">
+            <div class="ui fluid icon input">
+                <input type="text" placeholder="Name">
+                <i class="user icon"></i>
+            </div>
+            <br/>
+            <div class="ui fluid action input">
+                <input type="email" placeholder="Email">
+            </div>
+            <br/>
+            <div class="ui fluid icon input">
+                <input type="text" placeholder="Subject">
+            </div>
+            <br/>
+            <div class="ui fluid action input">
+                <input type="text" placeholder="Content">
+            </div>
+            <br/>
+            <button class="fluid ui button">Send</button>
+        </div>
+        <div class="ui eight wide column">
+            <br/>
+            <h4 class="ui dividing centered header">Get in Touch</h4>
+            <p>"Sed ut perspiciatis , totam rem oluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+        </div>
+    </div>
+    <br/><br/>
+</div>
+<!-- Add Google Maps -->
+<div id="googleMap" style="height:400px;" class="w3-grayscale-max"></div>
+<script>
+    var myCenter;
+    function myMap() {
+        myCenter=new google.maps.LatLng(52.369410, -7.170856);
+        var mapOptions= {
+            center:myCenter,
+            zoom:12, scrollwheel: false, draggable: false,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+        var marker = new google.maps.Marker({
+            position: myCenter,
+        });
+        marker.setMap(map);
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBA4kS9n4R6PUQ9p6R1bfjOR7Ezt-a1aQg&callback=myMap"></script>
+
+<div class="ui vertical footer segment">
+    <div class="ui center aligned container">
+            <a class="item" href=""><i class="large snapchat square icon"></i></a>
+            <a class="item" href=""><i class="large facebook square icon"></i></a>
+            <a class="item" href=""><i class="large instagram icon"></i></a>
+            <a class="item" href=""><i class="large twitter square icon"></i></a>
+            <a class="item" href=""><i class="large youtube square icon"></i></a>
+        <div class="ui section divider"></div>
+        <div class="ui horizontal small divided link list">
+            <a class="item" href="#about">About</a>
+            <a class="item" href="#contact">Contact Us</a>
+            <a class="item" href="#members">Members</a>
+            <a class="item" href="#gbnf">GBNF</a>
+        </div>
+    </div>
+
 
 </body>
 </html>
