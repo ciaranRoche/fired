@@ -1,0 +1,38 @@
+
+.c-top,.c-bottom{
+    position:fixed;
+    width:100%;
+    z-index:1}
+
+.c-top{top:0}
+
+.c-bottom{bottom:0}
+
+.c-tooltip,.c-display-container{
+    position:relative
+}
+.c-tooltip, .c-text{
+    display:none
+}
+.c-tooltip:hover .c-text{
+    display:inline-block
+}
+.c-opacity-max{
+    opacity:0.25
+}
+.c-opacity-min{
+    opacity:0.75
+}
+.c-display-middle{
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+.c-padding-large{padding:12px 24px!important}
+.c-black,.w3-hover-black:hover{color:#fff!important;background-color:#000!important}
+.c-tiny{font-size:10px!important}.c-small{font-size:12px!important}.c-medium{font-size:15px!important}.c-large{font-size:18px!important}
+.c-xlarge{font-size:24px!important}.c-xxlarge{font-size:36px!important}.c-xxxlarge{font-size:48px!important}.c-jumbo{font-size:64px!important}
+.c-wide{letter-spacing:4px}
+.c-animate-opacity{animation:opac 0.8s}@keyframes opac{from{opacity:0} to{opacity:1}}
+.c-hide-small{display:none!important}
+.c-centered tr th,.c-centered tr td{text-align:center}
